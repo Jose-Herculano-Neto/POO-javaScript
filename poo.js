@@ -14,7 +14,7 @@ Crie classes específicas que herdem de "Animal" (por exemplo: "Cachorro", "Gato
 e sobrescrevam o método "falar" para exibir o som característico de cada animal.
 */
 
-class animal {
+class Animal {
   constructor(tipo, falar) {
     this.tipo = tipo;
     this.falar = falar;
