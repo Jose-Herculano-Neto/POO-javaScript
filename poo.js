@@ -15,13 +15,13 @@ e sobrescrevam o método "falar" para exibir o som característico de cada anima
 */
 
 class Animal {
-  constructor(tipo, falar) {
-    this.tipo = tipo;
+  constructor(especie, falar) {
+    this.especie = especie;
     this.falar = falar;
   }
 }
 
-const animal1 = new animal("cachorro", "au au");
+const animal1 = new Animal("cachorro", "au au");
 console.log(animal1);
 
 /*
